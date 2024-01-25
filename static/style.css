@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto+Condensed:wght@700&display=swap');
+body {
+    margin-top:0px;
+    padding: 0px;
+}
+#main {
+    height:500px;
+}
+.footicon {
+    height: 30px;
+}
+.nop {
+    margin-top: 0px;
+}
+.cont {
+    background-color: #434b53;
+}
+.txt {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: whitesmoke;
+    padding: 5px;
+}
+header {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+.home {
+    height: 16px;
+    width: 20px;
+}
+#coding {
+    height:500px;
+}
+.list {
+    font-size: 32px;
+}
+.item-bl-bg {
+    background-color: #2b3136 ;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

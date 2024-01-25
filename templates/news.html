@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Новости{% endblock %}
+
+{% block body %}
+<h1>Новосная лента:</h1>
+{% for el in articles %}
+
+<div class="alert alert-info">
+    <h1>{{ el.title }}</h1>
+    <h2>{{ el.intro }}</h2>
+    <h3>Дата:{{ el.date.date() }}</h3>
+    <a href="/news/{{ el.id }}" class="btn btn-warning">Детальнее</a>
+</div>
+{% endfor %}
+{% endblock %}
